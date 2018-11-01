@@ -100,6 +100,7 @@ export default {
               type: "success",
               message: "我的大刀早已饥渴难耐"
             });
+            this.getData()          //删除后重新刷新页面
           });
         })
         .catch(() => {

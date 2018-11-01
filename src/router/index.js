@@ -9,7 +9,8 @@ const components = {
   user: () => import('../views/user/index'),
   text: () => import('../views/text'),
   userEdit:()=> import('../views/userEdit'),
-  addUser:()=> import('../views/addUser')
+  addUser:()=> import('../views/addUser'),
+  addSwiper:()=> import('../views/swiper')
 }
 
 const router = new Router({
@@ -71,7 +72,15 @@ const router = new Router({
             title : '添加管理员'
           },
           component: components.addUser
-        }
+        },
+        {
+          path:'addSwiper',
+          name: 'addSwiper',
+          meta : {
+            title : '添加轮播图'
+          },
+          component: components.addSwiper
+        },
       ]
     }
   ]

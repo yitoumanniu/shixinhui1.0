@@ -23,6 +23,7 @@
           <el-menu-item index="/layout/addUser">添加管理员</el-menu-item>
           <el-menu-item index="/login">登录</el-menu-item>
           <el-menu-item index="/layout/user">用户界面</el-menu-item>
+          <el-menu-item index="/layout/addSwiper">添加轮播图</el-menu-item>
         </el-menu-item-group>
         <el-menu-item-group title="分组2">
           <el-menu-item index="/layout/text">图片上传</el-menu-item>
